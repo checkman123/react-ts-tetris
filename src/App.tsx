@@ -1,14 +1,13 @@
 import React from 'react';
-import './App.css';
+// Styles
+import { StyledTetrisWrapper, StyledTetris } from './App.styles';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <div>
-        
-      </div>
-    </div>
+    <StyledTetrisWrapper role='button' tabIndex={0}>
+      <StyledTetris>Start here!</StyledTetris>
+    </StyledTetrisWrapper>
   );
-}
+};
 
 export default App;
