@@ -1,3 +1,3 @@
-### Tetris with TypeScript
+#### Tetris with TypeScript
 
 Uses Vite instead of Create React App
